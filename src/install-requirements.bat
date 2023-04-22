@@ -12,7 +12,7 @@ if errorlevel 0 (
     echo. & echo [i] Python is installed at the system.
 )
 
-pip -V > NUL
+python -m pip -V > NUL
 if errorlevel 1 (
     echo. & echo [!] PIP isn't installed or added to PATH.
     pause > NUL
@@ -22,7 +22,7 @@ if errorlevel 0 (
     echo. & echo [i] PIP is installed at the system.
 )
 
-pip install -r requirements.txt > NUL
+python -m pip install -r requirements.txt > NUL
 
 if errorlevel 1 (
    echo. & echo [!] An unexpected error occured while downloading libraries.
