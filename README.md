@@ -134,4 +134,7 @@
 
 <h4>Beni desteklemek için...</h4>
 
+<a href="https://github.com/MehmetKLl/OBA-Otomatik-Oynatici" title="Go to GitHub repo"><img src="https://img.shields.io/static/v1?label=MehmetKLl&message=OBA-Otomatik-Oynatici&color=blue&logo=github" alt="MehmetKLl - OBA-Otomatik-Oynatici"></a>
+<a href="https://github.com/MehmetKLl/OBA-Otomatik-Oynatici"><img src="https://img.shields.io/github/stars/MehmetKLl/OBA-Otomatik-Oynatici?style=social" alt="stars - OBA-Otomatik-Oynatici"></a>
+
 Bu projeyi <i>tek başıma</i> geliştiriyor ve projeyi <i>hiçbir menfaat beklemeksizin ücretsiz</i> ve <i>herkese açık</i> olarak yayınlıyorum. Eğer ki projeyi beğendiyseniz ve bana biraz da olsa destek olmak istiyorsanız <b>projeyi yıldızlamanız</b> <i>yeterli</i> olacaktır. 
