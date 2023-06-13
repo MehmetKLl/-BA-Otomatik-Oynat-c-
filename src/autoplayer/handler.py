@@ -11,20 +11,19 @@ class Screen:
     def __init__(self):
         self.height = GetSystemMetrics(1)
         self.width = GetSystemMetrics(0)
-
+        
         hwnd = GetDesktopWindow()
         hwnddc = GetWindowDC(hwnd)
         mfcdc = CreateDCFromHandle(hwnddc)
         savedc = mfcdc.CreateCompatibleDC()
-
+        
         bitmap = CreateBitmap()
-        bitmap.CreateCompatibleBitmap(mfcdc,self.width,self.height)
+        bitmap.CreateCompatibleBitmap(mfcdc, self.width, self.height)
 
         savedc.SelectObject(bitmap)
+        savedc.BitBlt((0, 0), (self.width, self.height), mfcdc, (0, 0), SRCCOPY)
 
-        bitmap_bytes = bitmap.GetBitmapBits(True)
-
-        self.screen_array = cvtColor(cvtColor(frombuffer(bitmap_bytes, dtype=uint8).reshape((self.height,self.width,4)), COLOR_BGRA2BGR), COLOR_BGR2HSV)
+        self.screen_array = cvtColor(cvtColor(frombuffer(bitmap.GetBitmapBits(True), dtype=uint8).reshape((self.height, self.width, 4)), COLOR_BGRA2BGR), COLOR_BGR2HSV)
 
         DeleteObject(bitmap.GetHandle())
         savedc.DeleteDC()
