@@ -5,7 +5,9 @@
 
 <br>
 <i>Uğraşmak yerine, dosyayı direkt <a href="https://github.com/MehmetKLl/OBA-Otomatik-Oynatici/raw/main/oba_otomatik_oynatma.zip" >buradan</a> indirebilirsiniz.</i>
+<br><br>
 <i>Detaylı kullanım videosuna <a href="https://youtu.be/eZo2jmeZ7BU">buradan</a> ulaşabilirsiniz.</i>
+
 --------------------------------- 
 
 <h4>Nedir bu ÖBA Otomatik Oynatıcı?</h4>
