@@ -4,6 +4,9 @@
 
 <br>
 <i>Uğraşmak yerine, dosyayı direkt <a href="https://github.com/MehmetKLl/OBA-Otomatik-Oynatici/raw/main/oba_otomatik_oynatma.zip" >buradan</a> indirebilirsiniz.</i>
+<br><br>
+
+<i>Program hakkında destek almak için <a href="https://www.technopat.net/sosyal/konu/uzman-oegretmenlik-icerikleri-icin-oynatici-oba-otomatik-oynatici.2164134/">bu konuya</a> ya da <a href="https://forum.donanimarsivi.com/konu/oeba-otomatik-oynatici.584854/">bu konuya</a> mesaj gönderebilirsiniz.</i>
 <br><br><br>
 
 <picture>
